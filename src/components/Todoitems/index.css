@@ -1,0 +1,33 @@
+.list-ccontainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.todo-item {
+    list-style-type: none;
+
+}
+
+.button {
+    margin-left: 35px;
+    height: 4vh;
+    width: 5vw;
+    margin-top:15px ;
+    border-radius: 20px;
+    color:brown;
+    background-color: transparent;
+    border-color: brown;
+    font-family: roboto;
+    font-weight: 500;
+    padding-top: 4px;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin-left: 16px;
+    outline: none;
+    cursor: pointer;
+}
+.button:hover {
+    background-color: red;
+    
+}
